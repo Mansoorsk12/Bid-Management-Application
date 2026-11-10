@@ -1,0 +1,45 @@
+
+.pod {
+  min-height: calc(100vh - 85px);
+  padding: 60px 24px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(135deg, #eff6ff, #f8fafc);
+}
+
+.pod .head {
+  font-size: 36px;
+  color: #1e40af;
+  margin-bottom: 20px;
+}
+
+.pod .para {
+  color: #64748b;
+  font-size: 18px;
+  font-weight: 500;
+
+  padding: 16px 28px;
+  background: #ffffff;
+  border: 1px solid #dbeafe;
+  border-radius: 12px;
+
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.08);
+}
+
+@media (max-width: 480px) {
+  .pod {
+    padding: 35px 16px;
+  }
+
+  .pod .head {
+    font-size: 27px;
+  }
+
+  .pod .para {
+    font-size: 15px;
+  }
+}

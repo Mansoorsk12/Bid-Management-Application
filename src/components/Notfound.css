@@ -1,0 +1,30 @@
+
+.notfound {
+  min-height: 100vh;
+  padding: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #f8fafc;
+}
+
+.notfound .image {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  object-fit: contain;
+
+  border-radius: 16px;
+}
+
+@media (max-width: 768px) {
+  .notfound {
+    padding: 16px;
+  }
+
+  .notfound .image {
+    max-width: 100%;
+  }
+}

@@ -1,8 +1,10 @@
+import './Pod.css'
+
 const Pod = () => {
   return (
-    <div>
-      <h1>POD Module</h1>
-      <p>Coming Soon...</p>
+    <div className='pod'>
+      <h1 className='head'>POD Module</h1>
+      <p className='para'>Coming Soon...</p>
     </div>
   )
 }

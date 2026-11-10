@@ -1,8 +1,10 @@
+import './User.css'
+
 const User = () => {
   return (
-    <div>
-      <h1>User Module</h1>
-      <p>Coming Soon...</p>
+    <div className='user'>
+      <h1 className='head'>User Module</h1>
+      <p className='para'>Coming Soon...</p>
     </div>
   )
 }

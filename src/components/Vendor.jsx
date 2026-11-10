@@ -1,8 +1,9 @@
+import './Vendor.css'
 const Vendor = () => {
   return (
-    <div>
-      <h1>Vendor Module</h1>
-      <p>Coming Soon...</p>
+    <div className="vendor">
+      <h1 className="head">Vendor Module</h1>
+      <p className="para">Coming Soon...</p>
     </div>
   )
 }
