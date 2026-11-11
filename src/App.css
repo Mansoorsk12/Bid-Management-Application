@@ -11,13 +11,16 @@
 .app {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .app-main {
   flex: 1;
-  width: 100%;
+  min-width: 0;
+  width: auto;
 }
+
+
 
 .app-footer {
   padding: 20px;
