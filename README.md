@@ -140,7 +140,7 @@ Through this project, I am gaining practical experience in:
 
 ## 👨‍💻 Author
 
-**Mansoor**
+**Mansoor Sadhik**
 
 - GitHub: [@Mansoorsk12](https://github.com/Mansoorsk12)
 
